@@ -26,6 +26,8 @@ def bakeries():
         bakery_array = {
             "id": bakery.id,
             "name": bakery.name,
+            "created_at": bakery.created_at,
+            "updated_at": bakery.updated_at,
         }
         bakeries.append(bakery_array)
     
