@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 from random import choice as rc
-
 from app import app
 from models import db, Bakery, BakedGood
 
